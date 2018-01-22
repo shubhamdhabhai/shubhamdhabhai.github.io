@@ -18,7 +18,7 @@ sass:
 title: end2end
 description: "A free Jekyll theme for download"
 keywords: "Jekyll, theme, free, download, SEO, blog, web"
-url: "shubhamdhabhai.github.io"
+url: "localhost:4000"
 baseurl: "/end2end"
 
 google_analytics: UA-52446115-1
