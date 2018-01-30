@@ -32,7 +32,7 @@ We have two api different api sources, one is [Github](https://developer.github.
 #### RepoListScope and JobListScope
 We have a home screen in our app from which we can either navigate to list of repos or list of jobs. Since they are entirely separate functionality I have created separate scopes for them.  
 To show how these scopes depend on each other I will use a diagram.
-![Alt text](/dagger_diagram.png)
+![Alt text](/Understanding_dagger/dagger_diagram.png)
 
 You can see that GithubApiScope and JobApiScope depends on Singleton scope and RepoListScope depends on RepoListScope and JobListScope depends on JobApiScope.  
 
